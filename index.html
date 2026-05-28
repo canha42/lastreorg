@@ -116,9 +116,12 @@
     </div>
     <div id="lastreorg">
         <p>Last reorg:</p>
-        <p>March 25, 2026 • 16:09 UTC</p>
+        <p>27 May 2026 • 21:02 UTC</p>
         <p>&nbsp;</p>
         <p>Previous record:</p>
+        <p>3 months, 2 days, 4 hours, 53 minutes</p>
+        <p>&nbsp;</p>
+        <p>World record:</p>
         <p>1 month, 20 days, 10 hours, 35 minutes</p>
     </div>
     <footer>
@@ -126,8 +129,8 @@
     </footer>
 
     <script>
-        // Set the announcement date in UTC
-        const announcementDate = new Date(Date.UTC(2026, 2, 25, 16, 9, 0));
+        // Set the announcement date in UTC (year, month, day, hour, minute, second) - NOTE THAT MONTH IS CURRENT-1
+        const announcementDate = new Date(Date.UTC(2026, 4, 27, 21, 2, 0));
 
         function updateCounter() {
             const now = new Date();
